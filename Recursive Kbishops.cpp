@@ -41,6 +41,3 @@ int main(){
 	cout << "Solutions for " << k << " bishops on a " << n << "X" << n << " chess board is: ";
 	cout << solution/factorial(k) << endl;
 }	
-
-
-
