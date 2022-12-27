@@ -9,18 +9,6 @@ bool okay(int* q, int c, int n){
 	return true;
 }
 
-/*
-void print(int* q, int k, int n, int solution){
-	cout << "Solution #" << ++solution <<  ": \n";
-	for(int i = 0; i < n * n; i++){
-		if(i == q[i % 3]) cout << "$ ";
-		else cout << "_ ";
-		if(i % 5 == 4) cout << endl;
-	}
-	cout << endl;
-}
-*/
-
 int factorial(int k){
 	if(k <= 1) return 1;
 	return factorial(k - 1) * k;

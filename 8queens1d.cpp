@@ -10,7 +10,7 @@ NC:
 	if(c > 7) goto PRINT;
 	q[c] = -1;
 NR:
-	q[c]++;
+	q[c]++; 
 	if(q[c] > 7) goto BACKTRACK;
 	for(int i = 0; i < c; i++){
 		if(q[i] == q[c] || abs(q[c] - q[i]) == (c - i)) goto NR;
