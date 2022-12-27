@@ -12,7 +12,7 @@ void SwapArray(int a[], int length){
 
 int main(){
 	const int length = 8;
-	int ID[length] = {2, 4, 1, 7, 9, 6, 0, 1};
+	int ID[length] = {1, 2, 3, 4, 5, 6, 7, 8};
 	SwapArray(ID, length);
 	for(int i = 0; i < length; i++){
 		cout << ID[i] << " ";
